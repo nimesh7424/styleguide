@@ -61,6 +61,29 @@ class SettingsActivity extends AppCompatActivity {
 
 ### Inner Level
 
+### Inner Level Model Class Regions
+
+````java
+
+class Person {
+  
+  // region Declarations
+  
+  // region Final Static
+  // endregion Final Static
+  
+  // region Primitives
+  // endregion Primitives
+  
+  // region Objects 
+  // endregion Objects
+  
+  // endregion Declarations
+
+}
+
+````
+
 ### Handling Clicks
 
 ##### Don't set clicklisteners from onCreate when you can directly implement android:onClick from xml.
